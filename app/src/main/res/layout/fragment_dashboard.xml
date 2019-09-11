@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image"
+        android:src="@mipmap/toni"
+        />
+    <TextView
+        android:layout_toRightOf="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahmad Fathoni"
+        android:layout_marginLeft="50dp"
+        android:paddingTop="20dp"
+        />
+
+    <TextView
+        android:layout_toRightOf="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NPM : 1717051053"
+        android:layout_marginLeft="50dp"
+        android:paddingTop="50dp"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_below="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imamm"
+        android:src="@mipmap/imam"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imamm"
+        android:text="M . Syahputra Prima"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imamm"
+        android:text="NPM : 1717051057"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="180dp"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_below="@+id/imamm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/uda"
+        android:src="@mipmap/uda"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/uda"
+        android:text="Fikri Aulia"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="280dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imamm"
+        android:text="NPM : 1717051047"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="310dp"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_below="@+id/uda"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/alya"
+        android:src="@mipmap/user"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/alya"
+        android:text="Alya Rani V"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="420dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imamm"
+        android:text="NPM : 1717051013"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="450dp"
+        />
+
+</RelativeLayout>
